@@ -2,6 +2,7 @@ import { ExperienceBar } from "../components/ExperienceBar";
 import { Profile } from "../components/Profile";
 import { Countdown } from "../components/Countdown";
 import { CompletedChallenges } from "../components/CompletedChallenges";
+import { ChallengeBox } from "../components/ChallengeBox";
 
 import Head from "next/head";
 
@@ -21,7 +22,9 @@ const App: React.FC = () => {
           <CompletedChallenges />
           <Countdown />
         </div>
-        <div></div>
+        <div>
+          <ChallengeBox />
+        </div>
       </section>
     </div>
   );
