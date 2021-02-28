@@ -5,7 +5,13 @@ import { HomeTemplate } from "../templates/Home";
 import { ChallengesProvider } from "../contexts/ChallengesContext";
 import { CountdownContextProvider } from "../contexts/CountdownContext";
 
-export default function Home(props) {
+interface HomeProps {
+  level: number;
+  currentExperience: number;
+  challengeCompleted: number;
+}
+
+export default function Home(props: HomeProps) {
   return (
     <ChallengesProvider
       level={props.level}
