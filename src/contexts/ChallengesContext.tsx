@@ -32,21 +32,22 @@ export function ChallengesProvider({
   children,
   ...rest
 }: ChallengesProviderProps) {
-  const [level, setLevel] = useState(rest.level ?? 1);
+  const [level, setLevel] = useState(rest.level ?? 0);
   const [currentExperience, setCurrentExperience] = useState(
     rest.currentExperience ?? 0
   );
   const [challengeCompleted, setChallengeCompleted] = useState(
     rest.challengeCompleted ?? 0
   );
+
   const [activeChallenge, setActiveChallenge] = useState(null);
 
   const experienceToNextLevel = Math.pow((level + 1) * 4, 2);
 
   useEffect(() => {
     Cookies.set("level", String(level));
-    Cookies.set("currentExperience", String(level));
-    Cookies.set("challengeCompleted", String(level));
+    Cookies.set("currentExperience", String(currentExperience));
+    Cookies.set("challengeCompleted", String(challengeCompleted));
   }, [level, currentExperience, challengeCompleted]);
 
   useEffect(() => {

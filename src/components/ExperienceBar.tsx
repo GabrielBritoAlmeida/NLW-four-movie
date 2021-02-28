@@ -15,7 +15,11 @@ export const ExperienceBar: React.FC = () => {
     <header className={styles.experienceBar}>
       <span>0 xp</span>
       <div>
-        <div style={{ width: `${percentToNextLevel}%` }} />
+        <div
+          style={{
+            width: `${percentToNextLevel > 100 ? 100 : percentToNextLevel}%`,
+          }}
+        />
 
         <span className={styles.currentExperience} style={{ left: "50%" }}>
           {currentExperience} xp
