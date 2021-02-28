@@ -11,21 +11,23 @@ export const ExperienceBar: React.FC = () => {
   const percentToNextLevel =
     Math.round(currentExperience * 100) / experienceToNextLevel;
 
+  const percent = percentToNextLevel ? `${percentToNextLevel}%` : 0;
+
   return (
     <header className={styles.experienceBar}>
       <span>0 xp</span>
       <div>
         <div
           style={{
-            width: `${percentToNextLevel}%`,
+            width: percent,
           }}
         />
 
         <span className={styles.currentExperience} style={{ left: "50%" }}>
-          {currentExperience} xp
+          {currentExperience ?? 0} xp
         </span>
       </div>
-      <span>{experienceToNextLevel} xp</span>
+      <span>{experienceToNextLevel ?? 0} xp</span>
     </header>
   );
 };
