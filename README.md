@@ -1,12 +1,14 @@
-## Projeto NLW4 Move-it [NEXT JS](https://vercel.com/).
+## Projeto NLW4 Move-it com [NEXT JS](https://vercel.com/).
+
+## Visite o [projeto](https://nlw-four-movie-ki6kvyjc9-gabrielbritoalmeida.vercel.app/).
 
 ## Tecnologias usada no projeto:
 
-- [Next-JS]
-- [Typescript]
-- [CSS-Module-CSS]
-- [Context-API-React]
-- [Js-cookie]
+- Next-JS
+- Typescript
+- CSS-Module-CSS
+- Context-API-React
+- Js-cookie
 
 ## Versão das dependências Prod
 
