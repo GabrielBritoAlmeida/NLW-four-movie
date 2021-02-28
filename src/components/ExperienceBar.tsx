@@ -17,7 +17,7 @@ export const ExperienceBar: React.FC = () => {
       <div>
         <div
           style={{
-            width: `${percentToNextLevel > 100 ? 100 : percentToNextLevel}%`,
+            width: `${percentToNextLevel}%`,
           }}
         />
 
