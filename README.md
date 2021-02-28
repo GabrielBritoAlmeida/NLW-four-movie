@@ -1,6 +1,6 @@
 ## Projeto NLW4 Move-it com [NEXT JS](https://vercel.com/).
 
-## Visite o [projeto](https://nlw-four-movie-ki6kvyjc9-gabrielbritoalmeida.vercel.app/).
+## Visite o [projeto](https://nlw-four-movie.vercel.app/).
 
 ## Tecnologias usada no projeto:
 
