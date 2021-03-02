@@ -1,5 +1,7 @@
 ## Projeto NLW4 Move-it com [NEXT JS](https://vercel.com/).
 
+## Time com 3 segundos, apenas para facilitar a brincadeira com o app.
+
 ## Visite o [projeto](https://nlw-four-movie.vercel.app/).
 
 ## Tecnologias usada no projeto:
